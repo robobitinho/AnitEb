@@ -1,0 +1,7 @@
+local Main = require(122327151919919)
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(player)
+	Main.Run(player)
+end)
+
